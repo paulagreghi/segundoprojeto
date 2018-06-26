@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuItemCadastrarPessoas"
+        android:title="@string/cadastrarPessoa" />
+    <item
+        android:id="@+id/menuItemPessoasCadastradas"
+        android:title="@string/PessoasCadastradas"/>
+    <item
+        android:id="@+id/menuItemConfiguracao"
+        android:title="@string/configuracoes" />
+    <item
+        android:id="@+id/menuItemSobre"
+        android:title="@string/Sobre" />
+    <item
+        android:id="@+id/menuItemNovo"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/novo"
+        app:showAsAction="always" />
+
+</menu>

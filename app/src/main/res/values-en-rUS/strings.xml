@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Second Project</string>
+    <string name="novo">New</string>
+    <string name="nome">Name</string>
+    <string name="idade">Age</string>
+    <string name="salvar">Save</string>
+    <string name="cancelar">Cancel</string>
+    <string name="nova_pessoa">New Person</string>
+    <string name="alterar_pessoa">Change Person</string>
+    <string name="abrir">Open</string>
+    <string name="apagar">Delete</string>
+    <string name="sim">Yes</string>
+    <string name="nao">No</string>
+    <string name="confirmacao">Confirmation</string>
+    <string name="deseja_realmente_apagar">" Do you really want to delete?"</string>
+    <string name="aviso">Warning</string>
+    <string name="ok">Ok</string>
+    <string name="nome_vazio">The name is empty!</string>
+    <string name="idade_vazia">" Age is empty!"</string>
+    <string name="idade_invalida">The age must be between 1 and 200!</string>
+    <string name="alterar">Alter</string>
+    <string name="Excluir">Delete</string>
+    <string name="pessoa">Person</string>
+    <string name="peso_em_kg">" Weight (in kg)"</string>
+    <string name="name">Name</string>
+    <string name="digite_o_string_nome">Enter the name</string>
+
+    <string name="altura">Height</string>
+    <string name="informe_a_string_altura">" height_report_report"</string>
+    <string name="informe_o_string_peso_em_kg">report_or_string_weight_in_kg</string>
+    <string name="data">Date</string>
+    <string name="informe_a_string_data">Enter the date</string>
+    <string name="Sobre">About</string>
+    <string name="pessoas">Create a new Person</string>
+    <string name="textViewAluno">Ana Paula Mourão Greghi</string>
+    <string name="textViewRa">1255908</string>
+    <string name="textViewCurso">" Software Engineering"</string>
+    <string name="textCurso">" Course:"</string>
+    <string name="textRa">Academic Registration:</string>
+    <string name="textAluno">Student:</string>
+    <string name="descricaoSobre">" This application was developed so you can control the weight and height of each member of your family. With it you can track the loss or gain of weight and the growth of each member by date."</string>
+    <string name="sobreApp">" About the Final Project"</string>
+    <string name="nova_medida">New Measure</string>
+    <string name="alterar_medida">Change Measure</string>
+    <string name="_01_01_2018">01_01_2018</string>
+    <string name="peso">Weight</string>
+    <string name="peso_vazio">Weight field is empty.</string>
+    <string name="data_vazio">" The date field is empty."</string>
+    <string name="altura_vazio">" The date height is empty."</string>
+    <string name="PessoasCadastradas">" People Registered"</string>
+    <string name="cadastrarPessoa">" Create an account"</string>
+    <string name="configuracoes">Settings</string>
+    <string name="barra_acao">Action Bar</string>
+    <string name="barra_status">Status Bar</string>
+    <string name="altura_em_cm">"Height (in cm) "</string>
+    <string name="peso_emkg">" Weight (in kg)"</string>
+    <string name="Peso">" Weight (in kg)"</string>
+    <string name="alturaemkg">"Height (in cm) "</string>
+    <plurals name="selecionado">
+        <item quantity="one">%d Selected</item>
+        <item quantity="other">%d Selected</item>
+    </plurals>
+
+</resources>

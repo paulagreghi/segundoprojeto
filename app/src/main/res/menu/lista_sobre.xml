@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuItemCadastrarPessoas"
+        android:title="@string/cadastrarPessoa" />
+    <item
+        android:id="@+id/menuItemPessoasCadastradas"
+        android:title="@string/PessoasCadastradas"/>
+    <item
+        android:id="@+id/menuItemConfiguracao"
+        android:title="@string/configuracoes" />
+</menu>

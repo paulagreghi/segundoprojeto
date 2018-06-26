@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfiguracoesActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/idForRadioGroup"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/barra_acao"
+                android:id="@+id/radio0"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/barra_status"
+                android:id="@+id/radio1"/>
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="R"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+            <TextView
+                android:gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="= 000"
+                android:id="@+id/textR"
+                android:layout_weight="1"/>
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="G"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+            <TextView
+                android:gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="= 000"
+                android:id="@+id/textG"
+                android:layout_weight="1"/>
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+            <TextView
+                android:gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="= 000"
+                android:id="@+id/textB"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <SeekBar
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBarRed"
+            android:max="255"
+            android:theme="@style/redTheme"/>
+        <SeekBar
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBarGreen"
+            android:theme="@style/greenTheme"
+            android:max="255"/>
+        <SeekBar
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBarBlue"
+            android:theme="@style/blueTheme"
+            android:max="255"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

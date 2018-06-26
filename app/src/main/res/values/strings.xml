@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Segundo Projeto</string>
+    <string name="novo">Novo</string>
+<string name="nome">Nome</string>
+<string name="idade">Idade</string>
+<string name="salvar">Salvar</string>
+<string name="cancelar">Cancelar</string>
+<string name="nova_pessoa">Nova Pessoa</string>
+<string name="alterar_pessoa">Alterar Pessoa</string>
+<string name="abrir">Abrir</string>
+<string name="apagar">Apagar</string>
+<string name="sim">Sim</string>
+<string name="nao">Não</string>
+<string name="confirmacao">Confirmação</string>
+<string name="deseja_realmente_apagar">Deseja realmente apagar?</string>
+<string name="aviso">Aviso</string>
+<string name="ok">OK</string>
+<string name="nome_vazio">O nome está vazio!</string>
+<string name="idade_vazia">A idade está vazia!</string>
+<string name="idade_invalida">A idade deve ser entre 1 e 200!</string>
+<string name="alterar">alterar</string>
+<string name="Excluir">excluir</string>
+<string name="pessoa">Pessoa</string>
+
+<string name="name">Nome</string>
+<string name="digite_o_string_nome">Digite o @string/nome</string>
+<string name="altura_em_cm">Altura (em cm)</string>
+<string name="altura">Altura</string>
+<string name="informe_a_string_altura">Informe a @string/altura</string>
+<string name="informe_o_string_peso_em_kg">Informe o @string/peso_em_kg</string>
+<string name="data">Data</string>
+<string name="informe_a_string_data">Informe a @string/data</string>
+<string name="Sobre">Sobre</string>
+<string name="pessoas">Cadastrar pessoa</string>
+<plurals name="selecionado">
+<item quantity="one">%d selecionado</item>
+<item quantity="other">%d selecionados</item>
+</plurals>
+<string name="textViewAluno">Ana Paula Mourão Greghi</string>
+<string name="textViewRa">1255908</string>
+<string name="textViewCurso">Engenharia de Software</string>
+<string name="textCurso">Curso:</string>
+<string name="textRa">Registo Acadêmico:</string>
+<string name="textAluno">Aluna:</string>
+<string name="descricaoSobre">Este aplicativo foi desenvolvido para você poder controlar o peso e a altura de cada integrante da sua família. Com ele você pode acompanhar a perda ou ganho de peso e o crescimento de cada integrante por data.</string>
+<string name="sobreApp">Sobre o Projeto Final</string>
+<string name="nova_medida">Nova Medida</string>
+<string name="alterar_medida">Alterar Medida</string>
+    <string name="_01_01_2018">01_01_2018</string>
+    <string name="peso">peso</string>
+    <string name="peso_vazio">O campo peso está vazio</string>
+    <string name="data_vazio">O campo data está vazio</string>
+    <string name="altura_vazio">O campo altura está vazio</string>
+    <string name="cadastrarPessoa">Cadastrar Pessoa</string>
+    <string name="PessoasCadastradas">Pessoas Cadastradas</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="barra_acao">Barra de ação</string>
+    <string name="barra_status">Barra de status</string>
+    <string name="peso_emkg" >Peso (em kg)</string>
+    <string name="Peso">peso_em_kg</string>
+    <string name="alturaemkg">Altura (em cm)</string>
+    <string name="peso_em_kg">Peso (em Kg)</string>
+
+
+</resources>
